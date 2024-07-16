@@ -7,7 +7,7 @@ AWS.config.update({ region: 'us-east-1' });
 module.exports.handler = async (event) => {
   const params = {
     TableName: 'Users',
-    Key:{s:'name'}
+    Key:{s:'namee'}
 };
 
     try {
